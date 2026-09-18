@@ -1,6 +1,6 @@
 # ABSortQA
 
-ABSortQA is a pairwise benchmark for acidic, basic, and amphoteric substance comparisons. This README reports the current data/results statistics.
+ABSortQA is a pairwise benchmark for acidic, basic, and amphoteric substance comparisons.
 
 ## Dataset Summary
 
@@ -95,3 +95,22 @@ Cells show accuracy as percent (correct/evaluated).
 | enamine | 100.00% (5/5) | 100.00% (5/5) | 60.00% (3/5) | 20.00% (1/5) | 100.00% (5/5) | 80.00% (4/5) |
 | guanidine | 28.57% (2/7) | 42.86% (3/7) | 71.43% (5/7) | 57.14% (4/7) | 14.29% (1/7) | 28.57% (2/7) |
 | imine | 50.00% (1/2) | 100.00% (2/2) | 100.00% (2/2) | 50.00% (1/2) | 100.00% (2/2) | 50.00% (1/2) |
+
+## Paper
+
+For methodology, dataset construction, and experimental details, see our
+[paper on IEEE Xplore](https://ieeexplore.ieee.org/document/11476267).
+
+## Citation
+
+If you use ABSortQA in your work, please cite:
+
+```bibtex
+@inproceedings{bui2026absortqa,
+  title={ABSortQA: An Evaluation of Chemical Reasoning in Large Language Models Through Pairwise Comparison of Acid and Base Strength},
+  author={Bui, Kien and Nguyen, Tien},
+  booktitle={SoutheastCon 2026},
+  year={2026},
+  doi={10.1109/SoutheastCon63549.2026.11476267}
+}
+```
