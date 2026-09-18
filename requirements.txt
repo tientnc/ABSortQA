@@ -5,3 +5,4 @@ bitsandbytes
 scipy
 sentencepiece
 protobuf
+matplotlib
